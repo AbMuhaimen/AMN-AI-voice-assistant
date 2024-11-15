@@ -102,3 +102,4 @@ def continuous_listen():
 
 
 continuous_listen()
+print("Bye")

@@ -2,7 +2,8 @@ import openai
 import json
 import os
 
-openai.api_key = "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"
+# open ai api key set up
+
 
 # File to save conversation history
 history_file = 'conversation_history.json'

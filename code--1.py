@@ -43,7 +43,7 @@ def Ftell(text):
 recognizer = sr.Recognizer()
 
 # OpenAI API setup
-openai.api_key = "YOUR_OPENAI_API_KEY"
+
 
 # Function to process audio with noise reduction
 def reduce_noise(audio_data, sample_rate=16000):

@@ -36,8 +36,8 @@ def Ftell(text):
 # Initialize speech recognizer
 recognizer = sr.Recognizer()
 
-# OpenAI API setup
-openai.api_key = "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"
+# Open ai api
+openai.api_key = ""
 
 # Function to process audio with noise reduction
 def reduce_noise(audio_data, sample_rate=16000):
